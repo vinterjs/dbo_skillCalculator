@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { margin: 0;}
+html, body { height: 100%; }
+h1, h2, h3, h4, p, span, a{font-family: "Nunito", sans-serif;}
+body *{
+    transition: all ease .2s;
+}
